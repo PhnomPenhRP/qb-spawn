@@ -1,14 +1,49 @@
 # qb-spawn
-Brichka Spawn Selector for QB-Core
+Spawn Selector for QB-Core Framework :eagle:
 
-# Screenshots
-![This is an image](https://i.imgur.com/TmbwS8i.png)
-![This is an image](https://i.imgur.com/v4zRQCg.png)
-![This is an image](https://i.imgur.com/0AmpZ60.png)
-![This is an image](https://i.imgur.com/q4B08r7.png)
-![This is an image](https://i.imgur.com/IyQthjy.png)
+# License
 
-# Configuration
+    QBCore Framework
+    Copyright (C) 2021 Joshua Eger
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>
+
+
+## Dependencies
+- [qb-core](https://github.com/qbcore-framework/qb-core)
+- [qb-houses](https://github.com/qbcore-framework/qb-houses) - Lets player select the house
+- [qb-apartment](https://github.com/qbcore-framework/qb-apartment) - Lets player select the apartment
+- [qb-garages](https://github.com/qbcore-framework/qb-garages) - For house garages
+
+## Screenshots
+![Spawn selector](https://i.imgur.com/nz0mPGe.png)
+
+## Features
+- Ability to select spawn after selecting the character
+
+## Installation
+### Manual
+- Download the script and put it in the `[qb]` directory.
+- Add the following code to your server.cfg/resouces.cfg
+```
+ensure qb-core
+ensure qb-spawn
+ensure qb-apartments
+ensure qb-garages
+```
+
+## Configuration
 An example to add spawn option
 ```
 QB.Spawns = {
@@ -24,6 +59,3 @@ QB.Spawns = {
     },
 }
 ```
-# rights 
-- discord : https://discord.gg/p8HRkBZjh2
-- github: https://github.com/Brichka-Dv 
